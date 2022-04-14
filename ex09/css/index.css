@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+    box-sizing: border-box;
+}
+header{
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    margin: 0%;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 65, 65);
+    color: white;
+    align-items: center;
+}
+
+
+#showcase {
+    display: flex;
+    background-image: url(../img/gigi-logo.png);
+    height: 1000%;
+    
+}
