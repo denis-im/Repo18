@@ -10,24 +10,21 @@ header{
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    overflow: hidden;
-    margin: 0%;
-    background-color: black;
     color: white;
+    background-image: url(../img/gigi-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 footer{
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 65, 65);
+    background-color: red;
     color: white;
     align-items: center;
 }
 
-
-#showcase {
-    display: flex;
-    background-image: url(../img/gigi-logo.png);
-    height: 1000%;
-    
+.box {
+  /* display: flex; */
+  /* float: left; */
 }
