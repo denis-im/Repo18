@@ -29,10 +29,11 @@ function* insideGenerator3() {
 }
 
 for (let i = 0; i <= 15; i++){
-  fifteenArray.push(iterator.next().value);
+  let val = iterator.next();
+  fifteenArray.push(val.value + (val.done ? "!" : "#"));
 }
 
-console.log(fifteenArray);
+console.log(fifteenArray.join(', '));
 
 // Only change code above this line
 module.exports = { fifteenArray, myGenerator };
