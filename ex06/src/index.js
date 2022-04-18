@@ -5,9 +5,9 @@ let rockStar = new Map([
   ["song", "Angie"],
   ["album", "Goats Head Soup"],
   ["singer", "Mick Jagger"]
-])
+]);
 
-let newRock = [...rockStar].filter(([k, v]) => k > "a");
+let newRock = new Map([...rockStar].filter(([key, val]) => key[0] > 'a'));
 console.log(newRock);
 
 // Only change code above this line
